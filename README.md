@@ -1,4 +1,6 @@
 
+![](../master/img/terminator.jpg "the garbage collector attempts to reclaim space occupied by objects which are no longer in use")
+
 
 # Client-side or library-side memory allocation with [Python CFFI](https://cffi.readthedocs.io)?
 

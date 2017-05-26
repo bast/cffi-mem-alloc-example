@@ -4,10 +4,6 @@ cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
 # project name and enabled languages
 project(example CXX)
 
-# compiler flags for release mode
-set(CMAKE_CXX_FLAGS_RELEASE "-O3")
-set(CMAKE_Fortran_FLAGS_RELEASE "-O3")
-
 # workaround for CMP0042 warning on Mac
 if(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
     if(NOT DEFINED CMAKE_MACOSX_RPATH)
